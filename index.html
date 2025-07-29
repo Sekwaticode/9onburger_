@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Serene Limpopo Guesthouse" />
+  <title>9 on Burger</title>
+
+  <!-- Icons & Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.theme.default.min.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="/9onburger_logo.png" type="image/png">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- FIRST PARALLAX SECTION -->
+  <section class="parallax-1">
+    <div class="parallax-inner">
+      <h1>Scroll Down</h1>
+    </div>
+  </section>
+
+  <!-- BOOKING FORM SECTION -->
+  <section class="section__container booking__container parallax-inner">
+    <form action="/" class="booking__form">
+      <div class="input__group">
+        <span><i class="ri-user-fill"></i></span>
+        <div>
+          <label for="name">NAME</label>
+          <input type="text" id="name" name="name" placeholder="Full Name" required />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-phone-fill"></i></span>
+        <div>
+          <label for="contact">CONTACT</label>
+          <input type="tel" id="contact" name="contact" placeholder="Phone or Email" required />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-in">CHECK-IN</label>
+          <input type="date" id="check-in" name="check-in" required />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-calendar-2-fill"></i></span>
+        <div>
+          <label for="check-out">CHECK-OUT</label>
+          <input type="date" id="check-out" name="check-out" required />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-user-fill"></i></span>
+        <div>
+          <label for="guest">GUEST</label>
+          <input type="number" id="guest" name="guest" placeholder="Number of Guests" required min="1" max="4" />
+        </div>
+      </div>
+      <div class="input__group">
+        <span><i class="ri-message-3-fill"></i></span>
+        <div>
+          <label for="message">MESSAGE</label>
+          <textarea id="message" name="message" placeholder="Your message..." rows="3"></textarea>
+        </div>
+      </div>
+      <div class="input__group input__btn">
+        <button type="submit" class="btn">BOOK NOW</button>
+      </div>
+    </form>
+  </section>
+ 
+  <!-- SECOND PARALLAX SECTION -->
+  <section class="parallax-2">
+    <div class="parallax-inner">
+      <h1>Parallax Effect</h1>
+    </div>
+  </section>
+
+  <!-- ROOM SECTION -->
+  <section class="section__container room__container">
+    <!-- <p class="section__subheader">EXPLORE OUR DIVINE ROOMS</p> -->
+    <h2 class="feature__header">The Most Memorable Rest Time Starts Here.</h2>
+    <div class="room__grid">
+      <!-- Room Cards -->
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="bedroom1_3.jpg" alt="Bedroom 1" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Bedroom 1</h4>
+          <p>Queen bed | Air conditioning | Bed linen | Clothes storage | Extra pillows and blankets | Hangers | TV | Room-darkening blinds | Iron</p>
+          <a href="#contact"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="bedroom2_3.jpg" alt="Bedroom 2" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Bedroom 2</h4>
+          <p>Queen bed | Air conditioning | Bed linen | Clothes storage | Extra pillows and blankets | Hangers | TV | Room-darkening blinds | Iron</p>
+          <a href="#contact"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="livingroom1.jpg" alt="Living Room" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Living Room</h4>
+          <p>Smart TV | Two Seater Couch | One Seater Chair | Coffee Table | TV Stand | Art Deco</p>
+          <a href="#contact"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="toilet1.jpeg" alt="Bathroom" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Full Bathroom</h4>
+          <p>Toilet | Basin | Toilet Caddy | Bath Tub | Shower | Towel | Rugs</p>
+          <a href="#contact"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="kitchen1.jpg" alt="Kitchen" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Full Kitchen</h4>
+          <p>Microwave | Four Plate Gas Stove | Kitchen Hood | Oven | Cutlery | Cabinets | Double-Door Fridge</p>
+          <a href="#contact"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+
+      <div class="room__card">
+        <div class="room__card__image">
+          <img src="garden1.jpg" alt="Garden" />
+          <div class="room__card__icons">
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-paint-fill"></i></span>
+            <span><i class="ri-shield-star-line"></i></span>
+          
+          </div>
+        </div>
+        <div class="room__card__details">
+          <h4>Garden</h4>
+          <p>Outdoor Sitting | Grassed Area | Outdoor Tap | Free Safe Parking</p>
+          <a href="#contact"><button class="btn">Book Now</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THIRD PARALLAX SECTION -->
+  <section class="parallax-3">
+    <div class="parallax-inner">
+      <h1>Parallax Effect</h1>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="section__container feature__container" id="feature">
+    <p class="section__subheader">FACILITIES</p>
+    <h2 class="feature__header">Core Features</h2>
+    <div class="feature__grid">
+      <div class="feature__card">
+        <span><i class="ri-thumb-up-line"></i></span>
+        <h4>High Ratings</h4>
+        <p>We take pride in curating a selection of homes that consistently receive great reviews.</p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-time-line"></i></span>
+        <h4>Quiet Hours</h4>
+        <p>Enjoy peace and uninterrupted rest in a calming environment.</p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-map-pin-line"></i></span>
+        <h4>Prime Location</h4>
+        <p>Located in central Polokwane, near top attractions and amenities.</p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-calendar-close-line"></i></span>
+        <h4>Free Cancellation</h4>
+        <p>We offer the flexibility to cancel your booking without stress.</p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-wallet-line"></i></span>
+        <h4>Payment Options</h4>
+        <p>Multiple convenient ways to pay and confirm your stay hassle-free.</p>
+      </div>
+      <div class="feature__card">
+        <span><i class="ri-coupon-line"></i></span>
+        <h4>Special Offers</h4>
+        <p>Seasonal discounts and curated packages for every type of traveler.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS Scripts -->
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+
+</html>
