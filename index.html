@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Serene Limpopo Guesthouse" />
-  <title>9 on Burger</title>
+  <title>9onBurger</title>
 
   <!-- Icons & Fonts -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
@@ -13,14 +13,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.theme.default.min.css" />
 
+<!-- AOS -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <!-- Favicon -->
-  <link rel="icon" href="/9onburger_logo.png" type="image/png">
+  <link rel="icon" href="/3-removebg-preview.png" type="image/png">
 
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body >
   <nav>
   <a href="/" class="home-link">
     <img src="1-removebg-preview.png" alt="Logo" class="logo" />
@@ -45,13 +48,47 @@
   <section class="parallax-1">
     <div class="parallax-inner">
     <div class="display-flex">
-  <h1>We hereby welcome you to</h1>
-  <img src="1-removebg-preview.png" alt="Welcome image" width="10" height="400"/>
+  <h1 data-aos="fade-down">We hereby welcome you to</h1>
+  <img data-aos="fade-down" src="1-removebg-preview.png" alt="Welcome image" height="500" />
+
 </div>
     </div>
   </section>
 
   <!-- BOOKING FORM SECTION -->
+   <section class="booking_and_container">
+       <h1>Book The Entire Home Now!</h1>
+
+   <div class="container">
+    <div class="box">
+      <div class="icon"><span>01</span></div>
+      <div class="content">
+        <h3>Fill in the Booking Form</h3>
+        <p>Complete the form below with your stay dates, number of guests, and any special preferences or requirements.</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="icon"><span>02</span></div>
+      <div class="content">
+        <h3>Submit the form for review</h3>
+        <p>View available rooms matching your details, compare pricing, and see any discounts or special offers before making a selection.</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="icon"><span>03</span></div>
+      <div class="content">
+        <h3>Confirm Your Booking</h3>
+        <p>Double-check your booking details, enter your contact information, and proceed to payment to confirm your reservation.</p>
+      </div>
+    </div>
+       <div class="box">
+      <div class="icon"><span>04</span></div>
+      <div class="content">
+        <h3>Receive Booking Confirmation</h3>
+<p>A confirmation email with all booking details and check-in instructions will be sent to your inbox instantly.</p>  
+  </div>
+    </div>
+  </div>
   <section class="section__container booking__container parallax-inner">
     <form action="/" class="booking__form">
       <div class="input__group">
@@ -100,20 +137,62 @@
         <button type="submit" class="btn">BOOK NOW</button>
       </div>
     </form>
+
   </section>
 
-  <!-- SECOND PARALLAX SECTION -->
-  <section class="parallax-2">
+    <section class="parallax-2">
     <div class="parallax-inner">
-      <h1>Parallax Effect</h1>
+      <section class="explore" id="explore">
+      <p class="section__subheader">But wait, there's more</p>
+      <h2 class="section__header">The stay at 9onBurger is now Delicious
+      </h2>
+      <div class="explore__bg">
+        <div class="explore__content">
+          <!-- <p class="section__description">10th MAR 2023</p> -->
+          <h4>You can now look forward to delicious, home-style meals freshly prepared at the guesthouse during their stay.</h4>
+          <!-- <button class="btn">Continue</button> -->
+        </div>
+      </div>
+    </section>
+        </div>
     </div>
   </section>
+  
+<section class="section__container about__container" id="about">
+   
+      <div class="about__content">
+        <p class="section__subheader">ABOUT US</p>
+        <h2 class="section__header">The Best Holidays Start Here!</h2>
+    <p class="section__description">
+        No 9 on Burger is situated at the heart of Polokwane, 3.8 km from Pietersburg Snake & Reptile. The Greenery
+        shopping Center is 2km away while Savannah Mall is 4km away. The air-conditioned accommodation is 3 km from
+        Polokwane Game Reserve, and guests can benefit from private parking available on site and free WiFi. The
+        property is non-smoking and is set 1 km from Peter Mokaba Stadium. Polokwane Golf Club is 1 km away while
+        Polokwane International Airport is 8 km from the property.
+      </p>
+      <p class="section__description">
+        The house is composed of 2 air conditioned bedrooms that feature a flat screen TV, a fully equipped kitchen,
+        and 2 bathrooms. Guests have access to unlimited WiFi and premium DSTV package. The property offers garden views
+        with a beautiful chilling spot.
+      </p>
+          <div class="about__image">
+          <a href="#"><img src="airbnb-2-logo-png-transparent.png" alt="" /></a>
+          <a href="#"><img src="bookingcom-logo-png-transparent.png" alt="" /></a>
+      </div>
+      </div>
+    </section>
+  <!-- SECOND PARALLAX SECTION -->
+  <!-- Ensure this HTML is wrapped in a full document if not already -->
+<!-- Also make sure to link your CSS correctly -->
+
+
+
 
   <!-- ROOM SECTION -->
-  <section class="section__container room__container">
+  <section class="section__container room__container" data-aos="fade-down"></section>>
     <!-- <p class="section__subheader">EXPLORE OUR DIVINE ROOMS</p> -->
     <h2 class="feature__header">The Most Memorable Rest Time Starts Here.</h2>
-    <div class="room__grid">
+    <div class="room__grid" data-aos="fade-down">
       <!-- Room Cards -->
       <div class="room__card">
         <div class="room__card__image">
@@ -125,11 +204,20 @@
           </div>
         </div>
         <div class="room__card__details">
-          <h4>Bedroom 1</h4>
-          <p>Queen bed | Air conditioning | Bed linen | Clothes storage | Extra pillows and blankets | Hangers | TV |
-            Room-darkening blinds | Iron</p>
-          <a href="#contact"><button class="btn">Book Now</button></a>
-        </div>
+  <h4>Bedroom 1</h4>
+  <ul class="room__card__list">
+    <li>Queen bed</li>
+    <li>Air conditioning</li>
+    <li>Bed linen</li>
+    <li>Clothes storage</li>
+    <li>Extra pillows and blankets</li>
+    <li>Hangers</li>
+    <li>TV</li>
+    <li>Room-darkening blinds</li>
+    <li>Iron</li>
+  </ul>
+</div>
+
       </div>
 
       <div class="room__card">
@@ -143,9 +231,18 @@
         </div>
         <div class="room__card__details">
           <h4>Bedroom 2</h4>
-          <p>Queen bed | Air conditioning | Bed linen | Clothes storage | Extra pillows and blankets | Hangers | TV |
-            Room-darkening blinds | Iron</p>
-          <a href="#contact"><button class="btn">Book Now</button></a>
+        <ul class="room__card__list">
+  <li>Queen bed</li>
+  <li>Air conditioning</li>
+  <li>Bed linen</li>
+  <li>Clothes storage</li>
+  <li>Extra pillows and blankets</li>
+  <li>Hangers</li>
+  <li>TV</li>
+  <li>Room-darkening blinds</li>
+  <li>Iron</li>
+</ul>
+
         </div>
       </div>
 
@@ -160,8 +257,15 @@
         </div>
         <div class="room__card__details">
           <h4>Living Room</h4>
-          <p>Smart TV | Two Seater Couch | One Seater Chair | Coffee Table | TV Stand | Art Deco</p>
-          <a href="#contact"><button class="btn">Book Now</button></a>
+          <ul class="room__card__list">
+  <li>Smart TV</li>
+  <li>Two Seater Couch</li>
+  <li>One Seater Chair</li>
+  <li>Coffee Table</li>
+  <li>TV Stand</li>
+  <li>Art Deco</li>
+</ul>
+
         </div>
       </div>
 
@@ -176,8 +280,15 @@
         </div>
         <div class="room__card__details">
           <h4>Full Bathroom</h4>
-          <p>Toilet | Basin | Toilet Caddy | Bath Tub | Shower | Towel | Rugs</p>
-          <a href="#contact"><button class="btn">Book Now</button></a>
+<ul class="room__card__list">
+  <li>Toilet</li>
+  <li>Basin</li>
+  <li>Toilet Caddy</li>
+  <li>Bath Tub</li>
+  <li>Shower</li>
+  <li>Towel</li>
+  <li>Rugs</li>
+</ul>
         </div>
       </div>
 
@@ -192,8 +303,15 @@
         </div>
         <div class="room__card__details">
           <h4>Full Kitchen</h4>
-          <p>Microwave | Four Plate Gas Stove | Kitchen Hood | Oven | Cutlery | Cabinets | Double-Door Fridge</p>
-          <a href="#contact"><button class="btn">Book Now</button></a>
+<ul class="room__card__list">
+  <li>Microwave</li>
+  <li>Four Plate Gas Stove</li>
+  <li>Kitchen Hood</li>
+  <li>Oven</li>
+  <li>Cutlery</li>
+  <li>Cabinets</li>
+  <li>Double-Door Fridge</li>
+</ul>
         </div>
       </div>
 
@@ -209,17 +327,43 @@
         </div>
         <div class="room__card__details">
           <h4>Garden</h4>
-          <p>Outdoor Sitting | Grassed Area | Outdoor Tap | Free Safe Parking</p>
-          <a href="#contact"><button class="btn">Book Now</button></a>
+          <ul class="room__card__list">
+  <li>Outdoor Sitting</li>
+  <li>Grassed Area</li>
+  <li>Outdoor Tap</li>
+  <li>Free Safe Parking</li>
+</ul>
+
         </div>
       </div>
     </div>
+        <h2 class="feature__header">This is where comfort meats style.</h2>
+
+  </section>
   </section>
 
   <!-- THIRD PARALLAX SECTION -->
   <section class="parallax-3">
     <div class="parallax-inner">
-      <h1>Parallax Effect</h1>
+      <!-- <h1>Parallax Effect</h1> -->
+      <section class="service" id="service">
+      <div class="section__container service__container">
+        <div class="service__content">
+          <p class="section__subheader" data-aos="fade-up">House Rules</p>
+          <h2 class="section__header">A few guidelines to make everyone's stay comfortable</h2>
+          <ul class="service__list " data-aos="fade-down">
+            <li>
+              <span><i class="ri-shield-star-line"></i></span>Maximum 4 Guests            </li>
+            <li>
+              <span><i class="ri-24-hours-line"></i></span>Check-in after 2pm            </li>
+            <li>
+              <span><i class="ri-headphone-line"></i></span>Check-out before 11am            </li>
+            <li>
+              <span><i class="ri-map-2-line"></i></span>No Smoking            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     </div>
   </section>
 
@@ -227,33 +371,39 @@
   <section class="section__container feature__container" id="feature">
     <p class="section__subheader">FACILITIES</p>
     <h2 class="feature__header">Core Features</h2>
-    <div class="feature__grid">
-      <div class="feature__card">
+    <div class="feature__grid" data-aos="fade-right">
+      <div class="feature__card" 
+ >
         <span><i class="ri-thumb-up-line"></i></span>
         <h4>High Ratings</h4>
         <p>We take pride in curating a selection of homes that consistently receive great reviews.</p>
       </div>
-      <div class="feature__card">
+      <div class="feature__card" 
+>
         <span><i class="ri-time-line"></i></span>
         <h4>Quiet Hours</h4>
         <p>Enjoy peace and uninterrupted rest in a calming environment.</p>
       </div>
-      <div class="feature__card">
+      <div class="feature__card" 
+>
         <span><i class="ri-map-pin-line"></i></span>
         <h4>Prime Location</h4>
         <p>Located in central Polokwane, near top attractions and amenities.</p>
       </div>
-      <div class="feature__card">
+      <div class="feature__card" 
+>
         <span><i class="ri-calendar-close-line"></i></span>
         <h4>Free Cancellation</h4>
         <p>We offer the flexibility to cancel your booking without stress.</p>
       </div>
-      <div class="feature__card">
+      <div class="feature__card" 
+>
         <span><i class="ri-wallet-line"></i></span>
         <h4>Payment Options</h4>
         <p>Multiple convenient ways to pay and confirm your stay hassle-free.</p>
       </div>
-      <div class="feature__card">
+      <div class="feature__card" 
+>
         <span><i class="ri-coupon-line"></i></span>
         <h4>Special Offers</h4>
         <p>Seasonal discounts and curated packages for every type of traveler.</p>
@@ -261,10 +411,86 @@
     </div>
   </section>
 
+  <section class="parallax-4 ">
+     <div class="parallax-inner">
+      <h1>Explore Your Home </h1>
+      <div class="iframe-container">
+
+  <iframe  
+  src="https://www.google.com/maps/embed?pb=!4v1754422955544!6m8!1m7!1s7jQ0JZIAlVdAhL6T2ngBgg!2m2!1d-23.91668398065591!2d29.46518044359708!3f267.72!4f0!5f0.7820865974627469"  width="600"
+    width="600"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+          <h1>Away from Home</h1>
+
+    </div>
+  </section>
+    
+
+<footer class="footer" id="contact" >
+    <div class="section__container footer__container" data-aos="fade-up">
+      <div class="footer__col">
+        <div class="logo">
+          <a href="#home"><img src="3-removebg-preview.png" width="200" height="200" alt="logo" /></a>
+        </div>
+
+
+      </div>
+      
+      <div class="footer__col" >
+        <h4>QUICK LINKS</h4>
+        <ul class="footer__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>OUR SERVICES</h4>
+        <ul class="footer__links">
+          <li><a href="#">Free Parking</a></li>
+          <li><a href="#">Free Wifi</a></li>
+          <li><a href="#">Air Conditioning</a></li>
+          <li><a href="#">Outdoor Chill Spot</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>CONTACT US</h4>
+        <ul class="footer__links">
+          <li><a href="#">9OnBurger@info.com</a></li>
+        </ul>
+        <div class="footer__socials">
+          <a href="#"><img src="airbnb-2-logo-png-transparent.png" alt="" /></a>
+          <a href="#"><img src="bookingcom-logo-png-transparent.png" alt="" /></a>
+          <a href="#"><img src="" alt="" /></a>
+          <a href="#"><img src="" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2025 9OnBurger. All rights reserved.
+    </div>
+  </footer>
+
   <!-- JS Scripts -->
   <script src="main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // animation duration
+    once: true     // animate only once when scrolling down
+  });
+</script>
+
+
 </body>
 
 </html>
