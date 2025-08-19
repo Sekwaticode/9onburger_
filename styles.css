@@ -100,7 +100,9 @@ p {
 .parallax-1,
 .parallax-2,
 .parallax-3,
-.parallax-4 {
+.parallax-4,
+.parallax-5,
+.parallax-6 {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -111,20 +113,26 @@ p {
 }
 
 .parallax-1 {
-  background-image: url('bedroom1_1.jpg');
+  background-image: url('assets/bedroom1_1.jpg');
 }
 
 .parallax-2 {
   display: flex;
-  background-image: url('Traditional-breakfast.jpg');
+  background-image: url('assets/breakfast.jpg');
 }
 
 .parallax-3 {
-  background-image: url('livingroom1.jpg');
+  background-image: url('assets/livingroom1.jpg');
 }
 
 .parallax-4 {
-  background-image: url('bedroom2_3.jpg');
+  background-image: url('assets/bedroom2_3.jpg');
+}
+.parallax-5 {
+  background-image: url('assets/livingroom11.jpg');
+}
+.parallax-6 {
+  background-image: url('assets/kitchen5.jpg');
 }
 
 @supports (-webkit-touch-callout: none) {
@@ -132,7 +140,9 @@ p {
   .parallax-1,
   .parallax-2,
   .parallax-3,
-  .parallax-4 {
+  .parallax-4,
+  .parallax-5,
+  .parallax-6{
     background-attachment: scroll;
   }
 }
@@ -427,7 +437,7 @@ p {
 }
 
 .service {
-  background-image: url("assets/bedroom2_1.jpg");
+  /* background-image: url("assets/bedroom2_1.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -513,7 +523,7 @@ p {
   justify-content: center;
   padding-block: 3rem;
   margin-top: 4rem;
-  background-image: url("assets/livingroom1.jpg");
+  /* background-image: url("assets/livingroom1.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1221,5 +1231,25 @@ nav .home-link {
 } 
 
 .my-float{
+	margin-top:16px;
+}
+
+/* Back to top */
+.back_to_top{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:var(--primary-color-dark);
+	color:var(--primary-color);
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+  z-index:100;
+} 
+
+.back_to_top_button{
 	margin-top:16px;
 }

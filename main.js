@@ -135,3 +135,5 @@ AOS.init({
     duration: 800, // animation duration
     once: true     // animate only once when scrolling down
   })
+
+  
