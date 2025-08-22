@@ -128,9 +128,11 @@ p {
 .parallax-4 {
   background-image: url('assets/bedroom2_3.jpg');
 }
+
 .parallax-5 {
   background-image: url('assets/livingroom11.jpg');
 }
+
 .parallax-6 {
   background-image: url('assets/kitchen5.jpg');
 }
@@ -142,7 +144,7 @@ p {
   .parallax-3,
   .parallax-4,
   .parallax-5,
-  .parallax-6{
+  .parallax-6 {
     background-attachment: scroll;
   }
 }
@@ -441,10 +443,14 @@ p {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex; /* Make it a flex container */
-  justify-content: center; /* Center horizontally */
-  align-items: center;     /* Center vertically */
-  padding: 4rem 1rem;      /* Add spacing for smaller screens */
+  display: flex;
+  /* Make it a flex container */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  padding: 4rem 1rem;
+  /* Add spacing for smaller screens */
 }
 
 .service__container {
@@ -519,7 +525,7 @@ p {
 }
 
 .explore__bg {
- display: flex;
+  display: flex;
   justify-content: center;
   padding-block: 3rem;
   margin-top: 4rem;
@@ -530,7 +536,7 @@ p {
 }
 
 .explore__content {
- max-width: 400px;
+  max-width: 400px;
   padding: 2rem;
   background-color: var(--primary-color);
   border-radius: 5px;
@@ -971,6 +977,10 @@ nav svg {
 
     background-color: var(--color-1);
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    /* optional frosted glass effect */
+
+
   }
 
   nav a {
@@ -979,6 +989,13 @@ nav svg {
     width: 100%;
     padding: 20px 30px;
     justify-content: flex-start;
+        color: var(--text-dark); /* ensure links are bright against dark */
+
+  }
+
+  
+  nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .open-sidebar-button,
@@ -1214,42 +1231,42 @@ nav .home-link {
   border: 0;
 }
 
-/* Whatsapp Button */
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:var(--primary-color-dark);
-	color:var(--primary-color);
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	/* box-shadow: 2px 2px 3px #999; */
-  z-index:100;
-} 
-
-.my-float{
-	margin-top:16px;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: var(--primary-color-dark);
+  color: var(--primary-color);
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
 }
 
-/* Back to top */
-.back_to_top{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	left:40px;
-	background-color:var(--primary-color-dark);
-	color:var(--primary-color);
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	/* box-shadow: 2px 2px 3px #999; */
-  z-index:100;
-} 
+.my-float {
+  margin-top: 16px;
+}
 
-.back_to_top_button{
-	margin-top:16px;
+
+
+/* Back to top */
+.back_to_top {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+  background-color: var(--primary-color-dark);
+  color: var(--primary-color);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /* box-shadow: 2px 2px 3px #999; */
+  z-index: 100;
+}
+
+.back_to_top_button {
+  margin-top: 16px;
 }
